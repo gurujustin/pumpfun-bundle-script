@@ -1,0 +1,30 @@
+{
+  "name": "webpumpbundle",
+  "version": "1.0.0",
+  "description": "bundle token creation and buy with 20 wallets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "pump",
+    "fun",
+    "pumpfun",
+    "bundle",
+    "bot"
+  ],
+  "author": "t.me/ryptodevc",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.4",
+    "axios": "^1.7.7",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0"
+  }
+}
